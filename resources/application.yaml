@@ -1,8 +1,9 @@
 spring:
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/tt?serverTimezone=Asia/Seoul
+    url: jdbc:mysql://127.0.0.1:3306/****?serverTimezone=Asia/Seoul #??에 db네임
+    <!-- ?? 에 db네임 -->
     username: root
-    password: 2105
+    password: **********
   jpa:
     show-sql: true
     generate-ddl: true
