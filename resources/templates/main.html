@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>tour-tip</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<th:block th:include="main/header"></th:block>
+<th:block th:include="main/main"></th:block>
+<th:block th:include="main/footer"></th:block>
+<!--mainPage!!!-->
+<!--<th:block th:if="${session.userInfo==null}">-->
+<!--    <a href="/login">로그인</a>-->
+<!--</th:block>-->
+<!--<th:block th:unless="${session.userInfo==null}">-->
+<!--    <li th:text="${'이메일 ' + session.userInfo.email + '님'}"></li>-->
+<!--    <li th:text="${'PW ' + session.userInfo.pw + '님'}"></li>-->
+<!--    <li th:text="${'닉네임' + session.userInfo.nickName + '님'}"></li>-->
+<!--    <li><a href="/logout">로그아웃</a></li>-->
+<!--</th:block>-->
+
+</body>
+</html>

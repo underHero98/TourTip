@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/tt?serverTimezone=Asia/Seoul
+    username: root
+    password: 2105
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+  devtools:
+    livereload:
+      enabled: false
+  thymeleaf:
+    cache: false
+  restart:
+    enable: true
+
+
+server:
+  port: 9090
+logging:
+  level:
+    web: info
+
+#url, username, password check

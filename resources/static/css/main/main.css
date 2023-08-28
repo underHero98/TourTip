@@ -1,0 +1,237 @@
+body{
+    font-size:14px;
+    font-size: 14px;
+    background-image: url("../../image/mainmain.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+header {
+    height: 10vh;
+}
+
+main {
+        height: 90vh;
+        position: relative;
+}
+
+table.SearchBox_SearchBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 100px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 320px;
+    border: 2px solid #fffff;
+    background: rgba(0,0,0,0.5);
+
+    }
+.info{
+font-size: 50px;
+    font-weight: 500;
+    /* text-align: center; */
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    /* margin: auto; */
+    transform: translate(-30%, -45%);
+    text-shadow : 3px 0 0 gray;
+
+}
+.info2{
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 49%;
+    transform: translate(-40%, -49%);
+    text-shadow : 3px 0 0 gray;
+
+
+}
+
+button {
+    width: 80%;
+    /* outline: 1px solid black; */
+    background-color: white;
+    border: none;
+}
+
+.SearchBox_select_location {
+    text-align: center;
+}
+.SearchBox_select_location .location{
+    width: 80%;
+    height: 50px;
+    background-color: #f3f6f6;
+    border: none;
+    font-size: 14px;
+    color:#424242;
+}
+
+.Cities{
+    overflow: scroll;
+}
+
+.Cities_button{
+    font-size:14px;
+    color:#424242;
+    background-color: white;
+}
+.Cities_button button:hover{
+    background : black;
+    color:white;
+}
+
+.SearchBox_select_checkinout {
+    text-align: center;
+}
+
+.SearchBox_select_people {
+    text-align: center;
+}
+.SearchBox_select_people .people{
+    width: 80%;
+    height: 50px;
+    background-color: #f3f6f6;
+    border: none;
+    font-size: 14px;
+    color:black;
+
+}
+
+.inner_select_people {
+    box-sizing: border-box;
+    width: 420px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px -6px rgba(0, 0, 0, .16);
+    border: 1px solid rgba(0, 0, 0, .06);
+    background-color: #fff;
+}
+
+.inner_select_people li {
+    padding: 30px;
+}
+
+.people {
+    display: flex;
+    align-items: center;
+}
+
+.people span {
+    color: white;
+}
+
+.people .buttons {
+    /* width: 200px; */
+    display: flex;
+    margin-left: 50px;
+}
+.buttons span {
+    color: black;
+    font-size: 14px;
+}
+
+.people_button p{
+    display: inline-block
+}
+
+
+.inner_select_people {
+    display: inline-block;
+    width: 300px;
+}
+
+.Cities {
+    width: 450px;
+    height: 260px;
+    /* overflow-y: scroll; */
+    box-sizing: border-box;
+}
+
+.Cities_button button {
+    display: block;
+    height: 40px;
+    width: 120px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    color: #424242;
+    background-color: #f3f6f6;
+    cursor: pointer;
+    /* border: 1px solid #eaecef; */
+    outline: 1px solid black;
+    border-radius: 6px;
+    margin: 5px 10px;
+}
+.tour-search-form .input-field {
+    background: var(--white);
+    padding: 10px 15px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+.input-wrapper {
+    display: inline-block;
+    width: 150px;
+}
+.input-label{
+    font-size: 10px;
+    color:white;
+    font-weight: lighter;
+}
+#checkin {
+    border-radius:10px;
+    border:none;
+    padding: 10px;
+    font-size: 10px;
+}
+
+#checkout {
+    border-radius:10px;
+    border:none;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.SearchBox_search{
+    width: 80%;
+    height: 100px;
+    background-color: #f3f6f6;
+    border: none;
+    color:black;
+
+}
+.SearchBox_search:hover{
+    background:black;
+    color:white;
+    transition: transform .5s;
+}
+.final{
+    height: 30px;
+    line-height:  30px;
+    border-radius: 10px;
+    background : black;
+    box-sizing: border-box;
+
+}
+th:last-child{
+  text-align: center;
+}
+#search_hotel{
+    width: 80%;
+    height: 50px;
+    background-color: #f3f6f6;
+    border: none;
+    font-size: 14px;
+    color:black;
+    border-radius:10px;
+}
+#search_hotel:hover{
+    background-color: black;
+    color:white;
+}

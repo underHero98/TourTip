@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     background: linear-gradient(-15deg, rgba(255,255,255,0.5) , rgba(0,0,0,0.1));
+
+}
+
+body > div {
+    padding: 0 35px 35px 35px;
+}
+
+.header > div {
+    height: 10vh;
+}
+.header > :nth-child(1){
+    text-align: center;
+    align-items: center;
+    line-height: 10vh;
+    font-weight: bold;
+    font-size: 25px;
+    color: gray;
+
+
+}
+.header :nth-child(3){
+    text-align: center;
+    line-height: 10vh;
+    color: gray;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 423px;
+    padding: 35px;
+    text-align: center;
+    align-items: center;
+    background: #C0C0C0;
+    overflow: hidden;
+}
+.form h1 {
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+input[type="text"],
+input[type="password"] {
+    outline: none;
+    width: 342px;
+    /*text-align: right 10px;*/
+    text-align: left;
+    font-size: 17px;
+    padding: 10px 19px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    background: white;
+    color: gray    ;
+    border: 2px gray;
+
+}
+
+
+input[type="submit"] {
+    width: 180px;
+    padding: 10px 19px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px gray;
+    background: #a2d9ff;
+    color: #fff;
+    font-size: 17px;
+    transition: .4s;
+    cursor: pointer;
+    justify-content: center;
+    display: inline-block;
+}
+
+#cancel {
+    float: right;
+}
+.singUpBtn {
+    color: rgba(255, 255, 255, 0.808);
+    display: flex;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.singUpBtn a {
+    color: rgb(223, 223, 223);
+    margin-left: 5px;
+    text-decoration: none;
+    transition: .4s;
+}
+.singUpBtn a:hover {
+    text-decoration: underline;
+}
+.account {
+    display: block;
+    margin-bottom: 3px;
+    padding: 3px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+#alert {
+    border-color: transparent;
+}
+.error_next_box {
+    display: block;
+    background-color: red;
+}
+.border {
+    background-color: red;
+}
+input:required {
+    border: 1px red;
+}
+input:required:invalid {
+    border-color: black;
+}
+img{
+    width: 100px ;
+    height: 100px;
+    object-fit:cover;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>글쓰기</title>
+    <link rel="stylesheet" href="/css/page/board/total.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="/js/page/board/boardView.js"></script>
+    <link rel="stylesheet" href="/css/page/board/boardView.css">
+</head>
+
+<body>
+    <div class="board_wrap">
+        <div class="board_title">   
+            <strong></strong>
+        </div>
+        <div class="board_view_wrap">
+            <div class="board_view">
+                <div class="title">
+                    글 제목이 들어갑니다.
+                </div>
+                <div class="info">
+                    <dl class="info-name">
+                        <dt>글쓴이</dt>
+                        <dd>김이름</dd>
+                    </dl>
+                    <dl class="info-day">
+                        <dt>작성일</dt>
+                        <dd>2021.1.16</dd>
+                    </dl>
+                    <dl class="info-look">
+                        <dt>조회</dt>
+                        <dd>33</dd>
+                    </dl>
+                    <dl class="info-like">    
+                        <dt>추천</dt>
+                        <dd>33</dd>
+                    </dl>
+                </div>
+                <div class="cont">
+                    <textarea placeholder="내용 입력" readonly></textarea>
+                </div>
+                <form method="post" id="comment_form">
+                    <input type="text" id="comment_content" name="content" required>
+                    <input type="submit" id="comment_register" value="작성">
+                </form>
+                <div class="comments"></div>
+                <div class="bt_wrap">
+                    <a href="#" onClick="history.back()">뒤로</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
